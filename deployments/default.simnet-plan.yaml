@@ -60,6 +60,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: caregiver-verification
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/caregiver-verification.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: patient-registration
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/patient-registration.clar
